@@ -62,6 +62,9 @@ body {
     /* width: 23%; */
   }
   
+  .drop1 {
+      font-family: 아리따-돋움(TTF);
+  }
   
   .dropbtn1 {
     display: none;
@@ -166,14 +169,15 @@ body {
   .loginbox .checkbox {
       display: block;
       text-align: right;
+      appearance: none;
   }
-  
-        
+   
   
   .loginbox .id {
      width: 100%;
      height: auto;
      display: inline-block;
+     background-color: none;
   }
   
 .id input {
@@ -188,7 +192,7 @@ body {
     color: #9FC3A1;
     letter-spacing: -1px;
     padding: 5px 0px;
-} 
+}
 
 .id input:focus {
     outline: none;
@@ -197,6 +201,7 @@ body {
 .id input::placeholder {
     color: #9FC3A1;
 }
+
 
 .pw input {
     width: 100%;
@@ -209,6 +214,7 @@ body {
     color: #9FC3A1;
     letter-spacing: -1px;
     padding: 5px 0px;
+    
 }
 
 .pw input:focus {
@@ -283,6 +289,8 @@ body {
     font-size: 14px;
     font-family: "Noto Sans KR";
     letter-spacing: -2px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .site {
     box-sizing: border-box;
